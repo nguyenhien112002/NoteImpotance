@@ -1,10 +1,12 @@
 https://www.hostinger.com/tutorials/how-to-rename-a-git-branch/
 
-
+#---change name branch---
 git branch -a
 git branch -m old-name new-name
 git push origin --delete old-name
 git push origin -u new-name
+#---change name branch---
+
 
 git checkout old-name
 git branch --list
