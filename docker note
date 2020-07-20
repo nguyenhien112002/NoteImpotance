@@ -1,0 +1,131 @@
+cd /D/Workspace_Shopping/ShoppingFrontEnd_Docker/web
+docker-compose build
+
+docker-machine restart default
+
+cd /D/Workspace_Shopping/ShoppingFrontEnd_Docker
+./start-docker.sh
+
+boot
+composer cleanup
+
+composer install
+
+netstat -nao | find ":80"
+taskkill/pid 2752 /F
+
+reload nginx
+docker container exec 4d342cc55cef nginx -s reload
+docker exec -it 4d342cc55cef bash
+
+#view log
+cd /var/log/nginx/
+[root@d7e55fde602f nginx]# tail -f -n 100 laravel_error.log
+
+#
+bash update
+
+php artisan config:clear
+
+php artisan cache:clear
+
+php artisan view:clear
+
+composer install
+
+
+#  Clear sau
+
+http://localhost/wbs/henpin-syouhin-select.html?tyumon_code=W121115A0005&ua=pc
+
+rcvn.mr2@gmail.com
+---
+numberSearchResults
+
+doc
+
+cd /D/Workspace_Shopping/ShoppingFrontEnd_Docker/web
+docker-compose build
+
+docker-machine restart default
+
+cd /D/Workspace_Shopping/ShoppingFrontEnd_Docker
+./start-docker.sh
+
+
+boot
+composer install
+
+composer cleanup
+
+netstat -nao | find ":80"
+taskkill/pid 2752 /F
+
+/home/webike/webapps/frontend
+/etc/nginx/conf.d/
+----
+reload nginx
+docker container exec 4d342cc55cef nginx -s reload
+docker exec -it 4d342cc55cef bash
+
+
+vim /etc/nginx/conf.d/default.conf
+
+#impression test
+RewriteRule ^/impression/(.*)$  http://127.0.0.1/wbs/bunrui-impre.html?axis=0 [QSA,P,L]
+
+
+
+cd /var/log/nginx/
+[root@d7e55fde602f nginx]# tail -f -n 100 laravel_error.log
+
+
+/home/webike/webapps/frontend
+
+-----
+https://www.valuebound.com/resources/blog/installation-configuration-of-apache-solr-server-4-6-on-windows-machine
+cd C:\solr-8.6.0\server
+java -jar start.jar
+
+-----
+[root@d7e55fde602f impression]# cd /var/log/nginx/
+
+cd /var/log/nginx/
+[root@d7e55fde602f nginx]# tail -f -n 100 laravel_error.log
+
+
+
+---
+khi thieu / sau link
+D:\Workspace_Shopping\ShoppingFrontEnd\app
+keo file helpers.php ->
+/home/webike/docker_php/ShoppingFrontEnd/app
+---
+cd /home/webike/docker_php/ShoppingFrontEnd_Docker
+docker-compose up -d
+docker exec -it shoppingfrontend bash
+composer cleanup
+
+
+rcvn.mr2@gmail.com
+
+http://52.196.56.145:8080/Webike-SCM/
+
+---------------------------------
+jdbc:mysql://175.41.252.17:3306/rc_product_factory?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=SJIS&amp;zeroDateTimeBehavior=convertToNull
+---------------------------------
+<prop key="URL">jdbc:mysql://175.41.252.17:3306/rc_product_factory?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=SJIS&amp;zeroDateTimeBehavior=convertToNull</prop>
+---------------------------------
+C:\eclipseOxygen\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\RcProductFactory\WEB-INF\classes\net\webike\RcProductFactory
+---------------------------------
+D:\Workspace_EC_Back_J\Webike-SCM\WebContent\WEB-INF\classes\net\webike\scm
+
+
+-- search table in schemas
+SELECT TABLE_NAME , TABLE_SCHEMA
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_NAME like '%tbl_tyumon_end%'; -- AND TABLE_SCHEMA='dobar' ;
+
+SELECT TABLE_NAME , TABLE_SCHEMA, COLUMN_NAME
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE COLUMN_NAME like '%select_pros%';  -- AND TABLE_NAME='mst_staticsource' 
