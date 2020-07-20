@@ -4,3 +4,9 @@ java -jar start.jar
 
 ---
 netstat -nao | find ":80"
+
+
+
+----
+Tài liệu tham khảo
+https://butchiso.com/2013/08/tim-hieu-ve-apache-solr.html
