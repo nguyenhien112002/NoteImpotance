@@ -1,6 +1,22 @@
 https://www.valuebound.com/resources/blog/installation-configuration-of-apache-solr-server-4-6-on-windows-machine
-cd C:\solr-8.6.0\server
-java -jar start.jar
+cd C:\solr-8.6.0\bin\solr start
+
+bin/solr create -c <name>
+
+bin/solr create -help
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 netstat -nao | find ":80"
@@ -10,3 +26,7 @@ netstat -nao | find ":80"
 ----
 Tài liệu tham khảo
 https://butchiso.com/2013/08/tim-hieu-ve-apache-solr.html
+https://www.tutorialspoint.com/apache_solr/apache_solr_on_windows_environment.htm
+https://lucene.apache.org/solr/guide/7_0/installing-solr.html
+hay
+https://www.tutorialspoint.com/apache_solr/apache_solr_core.htm
