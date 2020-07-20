@@ -1,0 +1,3 @@
+https://www.valuebound.com/resources/blog/installation-configuration-of-apache-solr-server-4-6-on-windows-machine
+cd C:\solr-8.6.0\server
+java -jar start.jar
