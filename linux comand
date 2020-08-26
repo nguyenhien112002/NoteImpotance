@@ -1,1 +1,4 @@
 cat /etc/os-release
+
+追加ディスク500GBをルートディレクトリとして拡張する
+fdisk -lで確認
