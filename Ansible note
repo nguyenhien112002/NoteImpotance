@@ -3,3 +3,21 @@ https://vnsys.wordpress.com/2018/08/04/quan-ly-cau-hinh-cm-voi-ansible/
 
 centos
 sudo yum install ansible
+
+"I have put the source-package and release manual when we create production environment last year.
+
+https://drive.google.com/drive/u/1/folders/1ao7RM5wQ8ASOd8_1sovmdFV-nhkutRt2
+> src
+> ansible
+
+https://docs.google.com/spreadsheets/d/1Mv171ucPrQqwoCPC2dVYpvAwUE7FDcqDi9qXdzhFH58/edit?pli=1#gid=904920015
+> [JP]新db0構築手順
+> [JP]新db2構築手順
+> [JP]セットアップ手順書(db2_solr) 
+Please refer it."	
+
+[Ansible] Phần 1 - Cài đặt và cấu hình	
+https://bizflycloud.vn/tin-tuc/ansible-phan-1-cai-dat-va-cau-hinh-412.htm
+
+vidu ansible	
+https://codingbee.net/ansible/ansible-a-hello-world-playbook
