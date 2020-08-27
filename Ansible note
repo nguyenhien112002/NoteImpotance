@@ -1,0 +1,5 @@
+hướng dẫn cài đặt
+https://vnsys.wordpress.com/2018/08/04/quan-ly-cau-hinh-cm-voi-ansible/
+
+centos
+sudo yum install ansible
