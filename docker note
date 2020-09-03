@@ -10,6 +10,8 @@ boot
 composer cleanup
 
 composer install
+//change env
+docker-machine env
 
 netstat -nao | find ":80"
 taskkill/pid 2752 /F
